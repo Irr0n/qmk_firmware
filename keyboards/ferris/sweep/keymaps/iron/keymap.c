@@ -47,6 +47,9 @@ const uint16_t PROGMEM dbabk_key_combo[] = {KC_LABK, KC_RABK, COMBO_END};
 const uint16t PROGMEM blpinky_blring_combo[] = {KC_X, KC_J, COMBO_END};
 const uint16t PROGMEM blring_blmiddle_combo[] = {KC_J, KC_B, COMBO_END};
 
+const uint16t PROGMEM brpinky_brring_combo[] = {KC_SCLN, KC_DOT, COMBO_END};
+const uint16t PROGMEM brring_brmiddle_combo[] = {KC_COMM, KC_DOT, COMBO_END};
+
 
 combo_t key_combos[] = {
 
@@ -56,9 +59,7 @@ combo_t key_combos[] = {
   [DBPRN_ACT] = COMBO(dbprn_key_combo, DBPRN),
   [DBBRC_ACT] = COMBO(dbbrc_key_combo, DBBRC),
   [DBCBR_ACT] = COMBO(dbcbr_key_combo, DBCBR),
-  [DBABK_ACT] = COMBO(dbabk_key_combo, DBABK),
-
-  [] = COMBO()
+  [DBABK_ACT] = COMBO(dbabk_key_combo, DBABK)
 };
 /* COMBO_ACTION(x) is same as COMBO(x, KC_NO) */
 
