@@ -15,7 +15,7 @@
 /* tri-layer config */
 #define TRI_LAYER_LOWER 1 // extension layer
 #define TRI_LAYER_UPPER 2 // symbol layer
-#define TRI_LAYER_ADJUST 6 // media layer
+#define TRI_LAYER_ADJUST 5 // media layer
 
 #define TAPPING_TOGGLE 1 // tap-toggle keys must be pressed one time to do tap action
 //#define PERMISSIVE_HOLD
